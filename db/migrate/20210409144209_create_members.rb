@@ -8,6 +8,7 @@ class CreateMembers < ActiveRecord::Migration[6.1]
       t.string :gender
       t.string :birthdate
       t.string :first_elected
+      t.string :image
 
       t.timestamps
     end

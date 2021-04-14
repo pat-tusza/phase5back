@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2021_04_09_144815) do
     t.string "gender"
     t.string "birthdate"
     t.string "first_elected"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
